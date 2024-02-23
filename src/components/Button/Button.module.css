@@ -1,0 +1,55 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(
+        90deg,
+        rgba(24, 173, 237, 1) 10%,
+        rgba(68, 68, 208, 1) 100%
+    );
+    padding: 7px 10px;
+    transition: 200ms;
+    min-height: 40px;
+    min-width: 120px;
+}
+
+.button:hover {
+    scale: 1.03;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.buttonsecondary {
+    display: flex;
+    align-items: center;
+    max-height: 25px;
+    border: none;
+    border-radius: 15px;
+    background-color: #ecebef;
+    font-size: 0.9rem;
+    padding: 5px 10px;
+}
+
+.buttontertiary {
+    min-width: 25%;
+    border: none;
+    border-radius: 5px;
+    background-color: #ecebef;
+    font-size: 1.25rem;
+    padding: 5px 20px;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

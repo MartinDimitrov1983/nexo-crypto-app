@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot TradeCard 1`] = `
+<DocumentFragment>
+  <div
+    class="cardWrapper"
+  >
+    <div
+      class="cardContent"
+    >
+      <div
+        class="name"
+      >
+        Trade Type
+      </div>
+      <div
+        class="buy"
+      >
+        Buy
+      </div>
+    </div>
+    <div
+      class="cardContent"
+    >
+      <div
+        class="info"
+      >
+        Price
+      </div>
+      <div
+        class="info"
+      >
+        test
+      </div>
+    </div>
+    <div
+      class="cardContent"
+    >
+      <div
+        class="info"
+      >
+        Amount
+      </div>
+      <div
+        class="info"
+      >
+        test
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

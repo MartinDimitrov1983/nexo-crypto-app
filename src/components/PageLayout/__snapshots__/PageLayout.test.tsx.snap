@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot PageLayout 1`] = `
+<DocumentFragment>
+  <div
+    class="layout"
+  >
+    <h1
+      class="title"
+    >
+      test
+    </h1>
+  </div>
+</DocumentFragment>
+`;

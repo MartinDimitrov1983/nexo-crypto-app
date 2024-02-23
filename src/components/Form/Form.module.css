@@ -1,0 +1,32 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 600px;
+    gap: 24px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 560px) {
+    .container {
+        flex-direction: column;
+    }
+    .inputs {
+        flex-direction: column;
+    }
+}
+
+.buttonDisabled {
+    background: grey;
+    cursor: auto;
+}
+
+.buttonDisabled:hover {
+    scale: 1;
+}

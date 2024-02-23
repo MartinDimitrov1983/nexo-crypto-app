@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot PairCard 1`] = `
+<DocumentFragment>
+  <div
+    class="cardWrapper"
+  >
+    <div
+      class="cardContent"
+    >
+      <div
+        class="name"
+      >
+        test
+      </div>
+      <div
+        class="info pointer"
+      >
+        1 TEST = 10
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

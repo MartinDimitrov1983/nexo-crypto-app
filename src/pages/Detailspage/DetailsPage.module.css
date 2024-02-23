@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.exchange {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 250px;
+    min-height: 300px;
+    position: relative;
+}
+
+.title {
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+}

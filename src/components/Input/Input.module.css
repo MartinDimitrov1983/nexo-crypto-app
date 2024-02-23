@@ -1,0 +1,32 @@
+.wrapper {
+    position: relative;
+}
+
+.label {
+    cursor: pointer;
+    display: block;
+    text-transform: uppercase;
+    position: absolute;
+    background: #f5f6f8;
+    top: 3px;
+    left: 15px;
+    font-size: 12px;
+    padding: 0 8px;
+    border-radius: 6px;
+}
+
+.input {
+    height: 40px;
+    outline: none;
+    margin: 10px 0;
+    padding: 0 10px;
+    cursor: pointer;
+    border: 3px solid #1e4dd8;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    background: #f5f6f8;
+}
+
+.wrapper:hover {
+    transform: scale(1.1);
+}

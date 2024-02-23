@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot Form 1`] = `
+<DocumentFragment>
+  <form>
+    <div
+      class="container"
+    >
+      <div
+        class="wrapper"
+      >
+        <label
+          class="label"
+          for="pair"
+        >
+          Currency
+        </label>
+        <input
+          class="input"
+          id="pair"
+          type="text"
+          value="test"
+        />
+      </div>
+      <button
+        class="button false"
+        type="submit"
+      >
+        <div
+          class="content"
+        >
+          <svg
+            fill="white"
+            style="margin-right: 5px;"
+          >
+            search.svg
+          </svg>
+          <div>
+            SEARCH
+          </div>
+        </div>
+      </button>
+    </div>
+  </form>
+</DocumentFragment>
+`;
