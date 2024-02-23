@@ -52,21 +52,3 @@ export const mapKrakenTrades = (trades: any[]): Trade[] =>
         qty: trade[1],
         type: trade[3] === 'b' ? TRADE_TYPES.buy : TRADE_TYPES.sell,
     })) || [];
-
-const MAPPER = {
-    [TRADING_PROVIDERS.binance]: mapBinanceTrades,
-    [TRADING_PROVIDERS.bitfinex]: mapBinanceTrades,
-    [TRADING_PROVIDERS.huobi]: mapHuobiTrades,
-    [TRADING_PROVIDERS.kraken]: mapKrakenTrades,
-};
-
-export const createTradeData = (
-    provider: TRADING_PROVIDERS,
-    trades: any,
-): TradesData => {
-    return {
-        id: provider,
-        name: provider,
-        trades: MAPPER[provider](trades),
-    };
-};
