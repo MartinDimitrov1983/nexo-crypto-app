@@ -19,7 +19,7 @@ const usePairData = (pair: string, sort: Sort) => {
     const dispatch = useAppDispatch();
 
     const exchanges = useMemo(() => {
-        let arr: Exchange[] = [
+        const arr: Exchange[] = [
             {
                 id: TRADING_PROVIDERS.binance,
                 name: TRADING_PROVIDERS.binance,
